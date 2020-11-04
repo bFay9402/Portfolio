@@ -4,3 +4,15 @@ nav .brand-logo,
 .sidenav-trigger {
   color: #444;
 }
+
+.cover {
+  height: 95vh;
+}
+
+.banner {
+  height: 25vh;
+}
+
+.icon-space {
+  margin: 5px 10px;
+}

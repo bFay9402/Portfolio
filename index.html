@@ -7,6 +7,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/c831ac4833.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
   <title>Bryan Fay | Front End Developer</title>
 </head>
@@ -17,7 +19,7 @@
     <nav class="white">
       <div class="container">
         <div class="nav-wrapper">
-          <a href="#" class="brand-logo">&lt;bsf/&gt;</a>
+          <a href="#home" class="brand-logo">&lt;bsf/&gt;</a>
           <a href="#" data-target="mobile-nav" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
@@ -41,9 +43,9 @@
   </ul>
 
   <!-- banner -->
-  <div id="index-banner" class="parallax-container">
+  <div id="index-banner" class="parallax-container cover">
     <div class="section no-pad-bot">
-      <br>
+      <br><br><br><br><br>
       <div class="container">
         <h1 class="header center white-text">Bryan Fay</h1>
         <div class="row center">
@@ -55,16 +57,28 @@
   </div>
 
   <!-- about me -->
-  <section id="about">
+  <section id="about" class="scrollspy center">
     <div class="container">
       <div class="row">
         <div class="col s12">
-          <h3 class="center">About Me</h3>
-          <p class="center flow-text">I have a passion for coding and learning new skills on a daily basis.
+          <h3>About Me</h3>
+          <p class="flow-text">I have a passion for coding and learning new skills on a daily basis.
             Utilizing material design principles I create visually pleasing and responsive websites.</p>
         </div>
+        <div class="col s12">
+          <h3>Technology</h3>
+        </div>
         <div class="row">
-          
+          <div class="col s12">
+            <i class="fab fa-html5 fa-5x orange-text icon-space"></i>
+            <i class="fab fa-css3-alt fa-5x blue-text icon-space"></i>
+            <i class="fab fa-js fa-5x yellow-text text-accent-4 icon-space"></i>
+            <i class="fab fa-bootstrap fa-5x purple-text icon-space"></i>
+            <i class="fab fa-sass fa-5x pink-text icon-space"></i>
+            <i class="fab fa-node-js fa-5x green-text icon-space"></i>
+            <i class="fab fa-react fa-5x light-blue-text icon-space"></i>
+            <i class="fab fa-git fa-5x grey-text text-darken-2 icon-space"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -128,15 +142,23 @@
     </div>
   </section>
 
+  <!-- parallax section -->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot"></div>
+    <div class="parallax"><img src="https://images.unsplash.com/photo-1518021964703-4b2030f03085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80"></div>
+  </div>
+
   <!-- contact -->
-  <section id="contact" class="scrollspy">
+  <section id="contact" class="scrollspy center">
     <div class="container">
       <div class="row">
-        <div class="row">
-          <div class="col s12">
-            <h3 class="center">Contact</h3>
-            <p class="center flow-text">Let's connect and build something together</p>
-          </div>
+        <div class="col s12">
+          <h3 class="center">Contact</h3>
+          <p class="center flow-text">Let's connect and build something together.</p>
+          <a href="" class="black-text"><i class="fas fa-phone fa-5x icon-space"></i></a>
+          <a href="" class="black-text"><i class="fas fa-envelope fa-5x icon-space"></i></a>
+          <a href="" class="black-text"><i class="fab fa-github fa-5x icon-space"></i></a>
+          <a href="" class="black-text"><i class="fab fa-linkedin fa-5x icon-space"></i></a>
         </div>
       </div>
     </div>

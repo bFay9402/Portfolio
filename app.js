@@ -8,4 +8,4 @@ M.ScrollSpy.init(ss, {});
 
 // parallax
 const parallax = document.querySelectorAll('.parallax');
-M.Parallax.init(parallax, {}); 
+M.Parallax.init(parallax, {});
