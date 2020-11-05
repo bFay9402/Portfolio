@@ -9,10 +9,10 @@ nav .brand-logo,
   height: 95vh;
 }
 
-.banner {
-  height: 25vh;
+.icon-space {
+  margin: 5px 2rem;
 }
 
-.icon-space {
-  margin: 5px 10px;
+.sidenav {
+  background: #424242;
 }
